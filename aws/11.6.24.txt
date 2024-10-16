@@ -1,0 +1,148 @@
+cloud comuputing -study of infra
+
+infra-servers,database,load balancer,virtu network,routers
+
+server-ram,hdd,ssd,processer,motherboard,network interface card
+
+cloud feature:
+1.pay as you go
+2.cost optimization
+3.scalability
+4.elasticity
+5.scale economy
+6.high avaibility 
+
+virtualization
+ntg but actual
+500gb
+______________________________
+
+
+rought 53
+create
+create hosted zones
+start
+domin name usha.com
+public hosted zone
+create hz
+create record
+record name
+tl-1
+roughting -simple
+create record
+click on record set
+
+______________________________________________
+
+
+load balancer
+algorthems
+-round robin
+-least connections
+-weighted round robin
+-weighted least connections
+-ip hash
+-least responce time
+-random
+-least bandwidth
+_________________________________________
+
+sql                           
+-it is vrtically scalable
+-it is good for complex queries
+ NoSQL
+-it is horizontally scalable
+-not good for complex queries
+_________________________________________________
+key value database
+-where data is stored in a “key-value” format and optimized for reading and writing that data is key value dabase.
+___________________________________________________
+data-collection of information 
+
+database-collection of data 
+ features:
+   -easily accessible
+    easily modify
+    easily  retrive
+     easily analyze 
+
+DBMS-data bace management sys 
+    - DBMS is a software 
+              software is sql, non-sql
+ 2 types of DBMS
+-relational: the data stored in  tabular formate data     ex:oracle db,my sql,postgree sql
+
+-non-relational: non structural data like video's       ex:mongo db,cassandra db,graph db,surch engine db
+ 
+formats: json,sql,image,
+
+__________________________________________________________
+
+creation of db               to connect db we want sql ele
+
+go aws console
+   rds
+  create db
+ easycreate
+-mysql-
+free tier
+master pass
+create
+edit inbound rules in defolt seq grp allow   sql -ip
+goto modify-to change pass, instance name etc..,
+       -change public in modify
+____________________________________________________________________
+
+dynamodb
+create table
+table name
+partition key-nAME
+sort key-subject
+create
+goto the what u create
+goto explore items
+create item -json view
+{
+  "name": {
+    "S": "swathi"
+  },
+  "subject": {
+    "S": "maths"
+  },
+  "Score": {
+   "S":"95"
+}
+}
+
+create item
+goto query
+
+select a table  name of the table
+name partiontion- usha
+run
+
+______________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

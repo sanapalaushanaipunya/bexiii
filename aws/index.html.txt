@@ -1,0 +1,18 @@
+cloud comuputing -study of infra
+
+infra-servers,database,load balancer,virtu network,routers
+
+server-ram,hdd,ssd,processer,motherboard,network interface card
+
+cloud feature:
+1.pay as you go
+2.cost optimization
+3.scalability
+4.elasticity
+5.scale economy
+6.high avaibility 
+
+virtualization
+ntg but actual
+500gb
+

@@ -1,0 +1,25 @@
+commands
+
+1.ls
+2.mkdir thub
+3.ls
+4.ls -l
+5.clear
+6.ls
+7.cd thub
+8.ls
+9.vi index.txt
+10.ls
+11.ls -l
+12.cat index.txt
+13.cat >> index.txt
+14.cat index.txt
+15.clear
+16.cat index.txt
+17.rm -r index.txt
+18.ls
+19.cd ..
+20.ls
+21.rmdir thub
+22.ls
+23.history

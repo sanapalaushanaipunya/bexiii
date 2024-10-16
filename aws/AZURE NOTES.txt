@@ -1,0 +1,341 @@
+
+AZURE NOTES
+
+storage acc
+create
+basics-rg name
+       storage acc name
+       standard
+        next
+advanced-security  first 3 ticks
+                   2 tick pedethe pub  pettakapothe pri
+create
+_____________________________________________________________________________________
+storage accounts    capacity-5tb
+                 data management
+                 storage website
+                 enable
+                 file name-index.html
+                 save
+                 $web
+                 upload
+                 static website
+                  primary end pt copy
+                 post on new tab
+________________________________________
+
+elastic file storage
+
+file share        capacity-100tib
+create
+file name
+backup tick theseyalii
+create
+upload
+connect click
+copy the code
+open cloud shell
+sshusername@ip
+sudo su
+cd -/
+ls 
+cd /
+script paste cheyalii
+cd mnt
+cd file name
+ls
+touch 45 46 56 35
+__________________________________________________________________________________
+
+
+aws::
+sudo su
+cd /
+ssh usha@ip
+yes
+vi Linux key paste
+cd -/
+ls
+cd /
+ls mnt/
+cd file name (nfile)
+ls
+
+
+___________________________________________________________
+
+windows connection
+
+rdp
+download 
+password 
+descript
+cpy pst
+__________________________
+
+storage types
+
+file 
+bolb
+table
+disks
+queue
+__________________________________________
+
+object replication
+
+first create SA
+another SA
+select any sa
+creat 2 containers
+dolly2 con1
+dolyylu con2
+ create obj replication
+upload in con1
+then it will reflect in con2
+___________________________________________
+
+
+life cycle management -to reduce the price
+
+addd A RULE
+rule name
+defolt
+next
+1day
+delete the blob
+add 
+__________________________________________________
+
+
+queue storage
+sa
+go to queue
+name
+clic on ok
+add msg- msg txt 
+         order1    order2      ord3     ord4    ord5
+         5 sec      5sec      5sec       5sec   5sec
+click on ok
+
+____________
+table
+name
+___________
+
+load balancers
+2 types
+   -regional
+    -glogal
+
+create a vn
+region west europ
+next
+ip adress-10.0.0.0/23
+add sub-name 
+             /24  
+           add
+defalt de vunchalii
+create
+
+  create vm
+region -west europ
+ubuntu 22.04 x64gen 2
+zone2
+password
+review create
+create another vm
+http https ssh
+open power shell
+ssh username@ip
+sudo su
+cd /
+ apt update
+api install apache2
+open new window paste ip adressm ch
+cd / var/www/html
+rm -rf index.html
+ls
+vi index.html
+hellow usha
+refresh the page
+
+open another vm
+power shell
+ sudo su
+cd /
+apt update
+apt install apache2
+open new window
+cd /var/www/html
+ls
+rm -rf index.html
+vi index.html
+hellow usha2
+refresh page
+create a loadbalancer
+region west europe
+standard
+public
+ regional
+name pip
+add backend pool
+vnet1
+review create
+ip address cpy nd paste in new tab
+add health-
+hp
+tcp
+80
+5
+save
+rules
+name
+pip(
+tcp
+port 80
+backend port 80
+hp(tcp:80)
+none
+4
+save
+refrirtualesh the page
+
+goto
+virtual machine scale sets
+ceate
+austra
+availability zones-1,2,3
+scaling mode-autoscaling
+image ub 22.04
+scaling config-edit the defolt value-  iniatial instance count1,min1,max3-
+scale 20-1
+mintes-5
+save
+password
+next
+next
+next
+nw- create lb
+    name
+    pub,tcp
+  port    80,80
+create
+management-enable noti for instance
+review nd create
+navigation bar
+instances
+goto-monetor
+vm insights-config insights 
+      enable nd config
+vmss nw nwsettings add rule inboundrules
+vmss in new window
+NB Pub ip
+cloud shell connect and command promt
+
+sudo su
+cd /
+top
+apt update
+apt install stress
+stress -c 1
+ scalling marchalii
+__________________________________________________
+data-collection of information 
+
+database-collection of data 
+ features:
+   -easily accessible
+    easily modify
+    easily  retrive
+     easily analyze 
+
+DBMS-data bace management sys 
+    - DBMS is a software 
+              software is sql, non-sql
+ 2 types of DBMS
+-relational:  tabular formate data     ex:oracle db,my sql,postgree sql
+
+-non-relational: non structural data like video's       ex:mongo db,cassandra db,graph db,surch engine db
+ 
+formats: json,sql,image,
+
+
+creation of db               to connect db we want sql ele
+
+go aws console
+   rds
+  create db
+ easycreate
+-mysql-
+free tier
+master pass
+create
+edit inbound rules in defolt seq grp allow   sql -ip
+goto modify-to change pass, instance name etc..,
+       -change public in modify
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
